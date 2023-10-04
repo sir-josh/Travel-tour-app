@@ -4,6 +4,7 @@ import Pricing from "./pages/Pricing";
 import Homepage from "./pages/Homepage";
 import PageNotFound from "./pages/PageNotFound";
 import Login from "./pages/Login";
+import AppLayout from "./pages/AppLayout";
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
 				<Route path="product" element={<Product />} />
 				<Route path="pricing" element={<Pricing />} />
 				<Route path="/login" element={<Login />} />
+				<Route path="/app" element={<AppLayout />} />
 				<Route path="*" element={<PageNotFound />} />
 			</Routes>
 		</BrowserRouter>
