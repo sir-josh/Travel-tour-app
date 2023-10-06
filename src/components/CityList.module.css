@@ -13,3 +13,8 @@
 .cityList::-webkit-scrollbar {
   width: 0;
 }
+
+/* .cityList::-webkit-scrollbar-thumb {
+	/* Optional: show position indicator in grey 
+	background: #42484d;
+} */
