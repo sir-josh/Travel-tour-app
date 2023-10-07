@@ -35,6 +35,18 @@
 				"lng": 13.376933665713324
 			},
 			"id": 98443197
+		},
+		{
+			"cityName": "Lagos",
+			"country": "Nigeria",
+			"emoji": "🇳🇬",
+			"date": "2023-10-31T15:59:59.138Z",
+			"notes": "Very buzzling and fun city but 'shine your eyes 👀'",
+			"position": {
+				"lat": 6.52,
+				"lng": 3.37
+			},
+			"id": 42930385
 		}
 	]
 }
