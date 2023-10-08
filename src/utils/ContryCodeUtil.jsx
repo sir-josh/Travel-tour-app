@@ -15,4 +15,11 @@ const convertToEmoji = (countryCode) => {
 	return String.fromCodePoint(...codePoints);
 }
 
-export { countryFlag, convertToEmoji };
+const formatDate = (date) =>
+	new Intl.DateTimeFormat("en", {
+		day: "numeric",
+		month: "long",
+		year: "numeric",
+	}).format(new Date(date));
+
+export { countryFlag, convertToEmoji, formatDate };
